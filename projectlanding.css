@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{    
+    
+}
+body{
+    background-image: url(corre.png);
+    font-family: 'Anton', sans-serif;
+    background-size: 100%;
+    color: white;
+}
+.cabecalho {
+    display: flex;
+    padding: 25px;
+    column-gap: 800px;
+    justify-content: flex-start ;
+    color: white; 
+       
+}
+.cabecalhomenu{
+    height: 15px;
+    
+}
+.cabecalhomenu:hover {
+    cursor: pointer;
+    
+}
+
+.cabecalhomenu {
+    display: flex;
+    gap: 100px;    
+}
+
+
+.conteudo-principal {
+    display: flex;
+    justify-content: space-around; 
+        
+}
+.conteudo-principal-escrito-botao {
+    background-color: antiquewhite;
+    width: 150px;
+    height: 50px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(250, 247, 247, 0.219);
+    border-radius: 20px;
+    font-family: 'Anton', sans-serif;
+    color: black;
+
+}
+.conteudo-principal-escrito-botao:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+    cursor: pointer;
+}
+.conteudo-secundario-titulo{
+    display: flex ;
+    flex-direction: column;
+    padding-inline: 35px;
+    padding-top: 60px;
+    font-size: 40px;
+
+}
+.conteudo-secundario-conteudo {
+    display: flex;
+    flex-direction: column;
+    padding: 34px ;
+    padding-top: 8px;
+    font-size: 18px;       
+   
+}
